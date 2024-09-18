@@ -1,10 +1,6 @@
 package com.wipro.emaas.pbaportal.professional_claim.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -12,6 +8,5 @@ import lombok.ToString;
 @Setter
 @ToString
 public class Claim {
-
 	ProfessionalClaim professionalClaim;
 }

@@ -6,8 +6,9 @@ import lombok.*;
 @NoArgsConstructor
 @Getter
 @Setter
-@ToString
-public class DiagnosisCode {
+@Builder
+public class ClaimStatusLookup {
 
-	String diagnosisCode;
+    private String status;
+    private ClaimStatusInfo claimStatusInfo;
 }
