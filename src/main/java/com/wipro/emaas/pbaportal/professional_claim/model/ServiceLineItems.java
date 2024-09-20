@@ -8,7 +8,7 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 public class ServiceLineItems {
-    // Modify this to handle a list of ServiceLineItem objects
+
     private List<ServiceLineItem> serviceLineItem;
 
 }

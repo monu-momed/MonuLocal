@@ -25,7 +25,7 @@ public class ProfessionalClaim {
 
 	private SupplierInformations supplierInformationList;
 	
-	private DiagnosisCode diagnosisCodes;
+	private DiagnosisCodes diagnosisCodes;
 	
 	private ServiceLineItems serviceLineItems;
 

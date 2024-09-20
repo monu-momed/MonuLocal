@@ -1,5 +1,6 @@
 package com.wipro.emaas.pbaportal.professional_claim.model;
 
+
 import lombok.*;
 
 @AllArgsConstructor
@@ -9,5 +10,5 @@ import lombok.*;
 @ToString
 public class DiagnosisCode {
 
-	String diagnosisCode;
+    private String diagnosisCode;
 }
